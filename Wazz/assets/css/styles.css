@@ -1,0 +1,259 @@
+
+@font-face
+{
+font-family: 'muli';
+src: url(../fonts/Muli/Muli-Regular.ttf);
+}
+@font-face
+{
+font-family: 'Lato';
+src: url(../fonts/Lato/Lato-Regular.ttf);
+
+}
+@font-face
+{
+font-family: 'cata';
+src: url(../fonts/Catamaran/Catamaran-Regular.ttf);
+
+}
+.redim_img {
+    height : 80px;
+    width : 80px;
+    overflow : hidden;
+}
+
+
+.img-circle{
+	width: 100px
+}
+nav{
+	background: transparent;
+}
+.menu1{
+	 background: -webkit-linear-gradient(left, #da2532, #7e4294);
+	 background: -o-linear-gradient(left, #da2532, #7e4294);
+	 background:  url(../img/bg-pattern.png) fixed, linear-gradient(to right, #da2532, #7e4294) fixed; 
+}
+nav.navbar.navbar-default.nav{
+  background:rgba(3,169,244,0);
+}
+div#mon_test.col-md-6{
+  background:li;
+}
+.fa-gradian {
+   /*font-size: 72px;*/
+        background: -webkit-gradient(linear, left top, left bottom, from(#da2532), to(#7e4294));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+		
+}
+
+
+
+.gradient {
+  /*font-size: 72px;*/
+  display: inline-block;
+  background: white;
+  color: black;
+  position: relative;
+}
+
+.gradient::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(left, #f00, #00f);
+  background: linear-gradient(to right, #f00, #00f);
+  content: '';
+  display: block;
+  mix-blend-mode: screen;
+}
+
+.tailleImage{
+  width:400px;
+	z-index: 1;
+	
+}
+
+.mesPetitApplication{
+  width:129px;
+  text-align:center;
+}
+
+div#monBloctext.col-md-4.col-md-offset-4{
+  padding-bottom:100px;
+  padding-top:100px;
+	font-family: 'cata'
+}
+#mesTitre{
+	font-family: 'muli';
+}
+#mesTitre p{
+	color: #9d887b;
+}
+img#apps{
+  margin-left:30px;
+	
+}
+.ali{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	/*align-items: center;*/	
+}
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+}
+img.mesPetitApplication{
+  margin-left:5px;
+	padding-left: 10px
+}
+
+div#maCompatibilite.row{
+  background:#fdcb4e;
+  color:white;
+  margin-top:-150px;
+  z-index:10;
+  padding:52px;
+	
+}
+
+img#image2{
+  width:200px;
+	/*margin-left: 80px*/
+}
+
+div#conteneurImage.col-md-6{
+}
+
+.monIcon{
+  font-size:80px;
+  color:#be2d50;
+  /*margin-left:140px;*/
+
+}
+
+p#monP.text-center{
+  margin:32px;
+}
+.corps{
+	margin: 0;
+}
+#prensantation{
+  /*padding-bottom:119px;*/
+  color:white;
+  /*padding-top:109px;*/
+  height: 400px;
+	margin: 0px;
+  background: url(../img/bg-cta.jpg) no-repeat center fixed;
+	/*-webkit-background-size:cover;
+	-o-background-size:cover;*/
+	font-family: 'cata';
+	
+	
+	
+
+}
+
+i#love.glyphicon.glyphicon-heart{
+  color:#dd4b39;
+  vertical-align:bottom;
+}
+
+
+#ma_presentation{
+	 background: -webkit-linear-gradient(left, #da2532, #7e4294);
+	 background: -o-linear-gradient(left, #da2532, #7e4294);
+	 background:  url(../img/bg-pattern.png) fixed, linear-gradient(to right, #da2532, #7e4294) fixed; 
+		color: #ffffff;
+	font-family: "cata";
+	z-index: 1;
+}
+.coleurMenu{
+	background: -webkit-linear-gradient(left, #da2532, #7e4294);
+	 background: -o-linear-gradient(left, #da2532, #7e4294);
+	 background:  url(../img/bg-pattern.png) fixed, linear-gradient(to right, #da2532, #7e4294) fixed; 
+	border: none;
+}
+div#monConterue3.row{
+  padding-bottom:52px;
+}
+
+footer#monFont{
+  background:#fdcb4e;
+  margin-top:-30px;
+  color:white;
+}
+.navbar-default .navbar-link{
+  color:#FFF;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color:#FFF;
+  margin-right:30px;
+}
+img#icon{
+  color:white;
+}
+
+div#footer2.col-md-12{
+  background:#222222;
+  color:white;
+}
+
+i#monCopriths.material-icons{
+  vertical-align:bottom;
+  position:absolute;
+  left:500px;
+  top:9px;
+  clear:both;
+}
+.mesBouton{
+	background: red;
+}
+
+.mesListe{
+	color: #9d887b;
+	font-weight: bold;
+}
+p#tetx.text-center{
+  margin-right:7px;
+  margin-top:12px;
+}
+
+ul.list-inline.mesListe{
+  text-align:center;
+}
+
+div#monconterur4.col-md-12{
+  padding:32px;
+  margin-top:-18px;
+  display:flex;
+  justify-content:center;
+	font-family: "muli";
+}
+
+p#conteneur5.text-center{
+}
+
+#camero{
+  background:white;
+	/*margin-left: 120px;*/
+	font-size: 70px;
+	padding-top: 15px
+		
+		
+}
+/*#monIcon{
+	margin-left: 130px
+}*/
+#monImagePresentation{
+	padding-left: 100px;
+	z-index: 1;
+		
+}
+
